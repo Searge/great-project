@@ -227,6 +227,7 @@ Your branch is up to date with 'origin/featurebranch'.
 nothing to commit, working tree clean
 
 /Volumes/Hitachi/Repos/great-project-fork featurebranch
+
 ❯ echo "# Termonal log for Rebase Tutorial" > log.sh
 
 /Volumes/Hitachi/Repos/great-project-fork featurebranch*
@@ -283,3 +284,4 @@ README.md file1.txt
 
 /Volumes/Hitachi/Repos/great-project-fork master
 ❯ echo "# Termonal log for Rebase Tutorial" > log.sh
+
