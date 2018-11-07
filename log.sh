@@ -227,4 +227,61 @@ Your branch is up to date with 'origin/featurebranch'.
 nothing to commit, working tree clean
 
 /Volumes/Hitachi/Repos/great-project-fork featurebranch
-❯
+
+❯ echo "# Termonal log for Rebase Tutorial" > log.sh
+
+/Volumes/Hitachi/Repos/great-project-fork featurebranch*
+❯ mate log.sh
+
+/Volumes/Hitachi/Repos/great-project-fork featurebranch*
+❯ git add log.sh
+
+/Volumes/Hitachi/Repos/great-project-fork featurebranch*
+❯ git commit -m "Terminal log for Rebase Tutorial"
+[featurebranch 2131836] Terminal log for Rebase Tutorial
+ 1 file changed, 230 insertions(+)
+ create mode 100644 log.sh
+
+/Volumes/Hitachi/Repos/great-project-fork featurebranch ⇡
+❯ git push --all -u
+Counting objects: 3, done.
+Delta compression using up to 2 threads.
+Compressing objects: 100% (3/3), done.
+Writing objects: 100% (3/3), 1.99 KiB | 1.99 MiB/s, done.
+Total 3 (delta 0), reused 0 (delta 0)
+To github.com:Searge/great-project.git
+   46b2e3f..2131836  featurebranch -> featurebranch
+   6ae2299..f1315ba  master -> master
+Branch 'featurebranch' set up to track remote branch 'featurebranch' from 'origin'.
+Branch 'master' set up to track remote branch 'master' from 'origin'.
+
+/Volumes/Hitachi/Repos/great-project-fork featurebranch
+❯ git status
+On branch featurebranch
+Your branch is up to date with 'origin/featurebranch'.
+
+nothing to commit, working tree clean
+
+/Volumes/Hitachi/Repos/great-project-fork featurebranch
+❯ git checkout master
+Switched to branch 'master'
+Your branch is up to date with 'origin/master'.
+
+/Volumes/Hitachi/Repos/great-project-fork master
+❯ git status
+On branch master
+Your branch is up to date with 'origin/master'.
+
+nothing to commit, working tree clean
+
+/Volumes/Hitachi/Repos/great-project-fork master
+❯ git add log.sh
+fatal: pathspec 'log.sh' did not match any files
+
+/Volumes/Hitachi/Repos/great-project-fork master
+❯ ls
+README.md file1.txt
+
+/Volumes/Hitachi/Repos/great-project-fork master
+❯ echo "# Termonal log for Rebase Tutorial" > log.sh
+
