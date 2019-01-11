@@ -2,7 +2,7 @@
 
 ---
 
-- [ ] Restart project
+- [x] Restart project
 - [ ] Note carefully
-- [ ] Make changes tomorow 
+- [x] Make changes tomorow 
 
